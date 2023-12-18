@@ -2,8 +2,8 @@
 
 // alert("hello")
 // alert(3+3);  we are using node js not browser
-console.log(3+3);
-console.log(shivam);
+// console.log(3+3);
+// console.log(shivam);
 
 
 let name = "shivam ";
@@ -21,5 +21,35 @@ let state ;
 
 
 // object
-console.log(typeof undefined);// undefined
-console.log(typeof null); // object 
+// console.log(typeof undefined);// undefined
+// console.log(typeof null); // object 
+
+
+// ************** data type summary*****************
+
+// data type => data ko kis tarah rakha jata hai aur use kish tarah accesc kiya jata hain 
+// two type  1 primitive 2 non primitive 
+
+// primitive 
+//  7 typr :  String , Number , Boolean ,null, undefined, Symbol, BigInt 
+
+//  type 
+const score = 100
+const   scoreValue  = 100.3
+
+const isLoggedIn = false;
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123');
+
+console.log(id === anotherId);
+
+
+// JavaScript is a dynamically typed language
+
+// non primitive/ refrence type  
+//  Array, Object , Function 
+
+// NOTE : javascript me 1  Object 2 broser events master kar lijiye
