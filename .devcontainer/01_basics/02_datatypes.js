@@ -36,7 +36,7 @@ let state ;
 //  type 
 const score = 100
 const   scoreValue  = 100.3
-
+const outSideTemp = null;
 const isLoggedIn = false;
 const outsideTemp = null
 let userEmail;
@@ -46,6 +46,12 @@ const anotherId = Symbol('123');
 
 console.log(id === anotherId);
 
+const bigNumber = 34567898799876544n
+
+
+
+
+
 
 // JavaScript is a dynamically typed language
 
@@ -53,3 +59,21 @@ console.log(id === anotherId);
 //  Array, Object , Function 
 
 // NOTE : javascript me 1  Object 2 broser events master kar lijiye
+
+const heros = ["shatiman","nagraj","doga"];
+let myObj = {
+    name : "shivam",
+    age : 20,
+
+}
+
+// function as variable
+const myFunction = function (){
+    console.log("Hello World ");
+}
+// data type pata karna 
+
+
+ console.log( typeof bigNumber);
+ console.log( typeof outSideTemp);
+console. log(typeof myFunctin);
