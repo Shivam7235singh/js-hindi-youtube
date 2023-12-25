@@ -28,7 +28,7 @@ const obj4 = { 5: "a", 6 : " f"}
 
 const obj3 = { ...obj1, ...obj2}
 
-console.log(obj3);
+// console.log(obj3);
 
 const users  = [
     {
@@ -45,14 +45,38 @@ const users  = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-
-console.log(tinderUser.hasOwenProperty('isLoggedIn'));
-
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwenProperty('isLoggedIn'));
 
 
+// destrucring 
+const course = {
+    coursename : "js in hindi ",
+    price  : "999",
+    courseInstructor : "Hitesh "
+}
+// course.courseInstructor
+const {courseInstructor : instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
 
+
+// ?react 
+
+// const navbar = ({company}) => {
+    
+// }
+// navbar (company = "Hindalco")
+
+
+// api concept => value aati hai bakend se use aap kaise likhate  hai
+// // ab values aati hai json se 
+// [
+//    "name"  : " Shivam",
+//    "coursename " : " js in hindi",
+//    "price " ; "freee"
+}
